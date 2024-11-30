@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: white;
+  background-color: teal;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img {  
+  border-radius: 10%;
+}
+img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: transform .3 ease-in-out;
+}
+a {
+  display: block;
+}
+a:hover {
+  transform: scale(1.2);
+  transition: transform .3s ease-in-out;
+}
+button {
+  background-color: fuchsia;
+  padding: 15px;
+  border-radius: 10px;
+}
+button:hover {
+  transform: scale(1.2);
+  transition: transform .3s ease-in-out;
+}
